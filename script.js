@@ -51,6 +51,7 @@ const playGame=(userChoice)=> {
             userWin = compChoice === "rock" ? false : true;
         }
         showWinner(userWin , userChoice , compChoice);
+  
     }
 
 }
